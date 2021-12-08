@@ -8,5 +8,4 @@ pair_count = 0
 for index1 in range ( 0 , len ( array ) - 1 ) :
     for index2 in range ( index1+1 , len ( array ) ) :
         if array [ index1 ] + array [ index2 ] == req_sum : pair_count += 1
-        print ( " cheese " )
 print ( pair_count )
